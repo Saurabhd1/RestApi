@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-28T13:56:10 EDT" name="Default Suite" finished-at="2020-07-28T13:56:17 EDT" duration-ms="7018">
+    <groups>
+    </groups>
+    <test started-at="2020-07-28T13:56:10 EDT" name="RestApiTest" finished-at="2020-07-28T13:56:17 EDT" duration-ms="7018">
+      <class name="com.qa.test.TestCases">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:10 EDT" name="beforeTest" finished-at="2020-07-28T13:56:10 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="invalidCalls(java.lang.String, int)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:10 EDT" name="invalidCalls" data-provider="invalidCalls" finished-at="2020-07-28T13:56:13 EDT" duration-ms="3121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  ca ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCalls -->
+        <test-method signature="invalidCalls(java.lang.String, int)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:13 EDT" name="invalidCalls" data-provider="invalidCalls" finished-at="2020-07-28T13:56:13 EDT" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[t12345z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCalls -->
+        <test-method signature="invalidCalls(java.lang.String, int)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:13 EDT" name="invalidCalls" data-provider="invalidCalls" finished-at="2020-07-28T13:56:13 EDT" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12a34  z]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCalls -->
+        <test-method signature="invalidCalls(java.lang.String, int)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:13 EDT" name="invalidCalls" data-provider="invalidCalls" finished-at="2020-07-28T13:56:13 EDT" duration-ms="170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[i@!$%n#^&*]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCalls -->
+        <test-method signature="invalidCalls(java.lang.String, int)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:13 EDT" name="invalidCalls" data-provider="invalidCalls" finished-at="2020-07-28T13:56:14 EDT" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akuhlhgkjblkg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCalls -->
+        <test-method signature="invalidValues(java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="invalidValues" data-provider="invalidValue" finished-at="2020-07-28T13:56:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidValues -->
+        <test-method signature="invalidValues(java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="invalidValues" data-provider="invalidValue" finished-at="2020-07-28T13:56:14 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidValues -->
+        <test-method signature="invalidValues(java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="invalidValues" data-provider="invalidValue" finished-at="2020-07-28T13:56:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidValues -->
+        <test-method signature="invalidValues(java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="invalidValues" data-provider="invalidValue" finished-at="2020-07-28T13:56:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@!$%#^&*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidValues -->
+        <test-method signature="invalidValues(java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="invalidValues" data-provider="invalidValue" finished-at="2020-07-28T13:56:14 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidValues -->
+        <test-method signature="validValues(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:14 EDT" name="validValues" data-provider="validValue" finished-at="2020-07-28T13:56:15 EDT" duration-ms="1268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Washington, D.C.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validValues -->
+        <test-method signature="validValues(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:15 EDT" name="validValues" data-provider="validValue" finished-at="2020-07-28T13:56:15 EDT" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validValues -->
+        <test-method signature="validValues(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:15 EDT" name="validValues" data-provider="validValue" finished-at="2020-07-28T13:56:16 EDT" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[russia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moscow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validValues -->
+        <test-method signature="validValues(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TestCases@6e38921c]" started-at="2020-07-28T13:56:16 EDT" name="validValues" data-provider="validValue" finished-at="2020-07-28T13:56:17 EDT" duration-ms="421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dodoma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validValues -->
+      </class> <!-- com.qa.test.TestCases -->
+    </test> <!-- RestApiTest -->
+  </suite> <!-- Default Suite -->
+</testng-results>
